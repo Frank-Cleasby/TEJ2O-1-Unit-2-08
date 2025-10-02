@@ -11,7 +11,7 @@ basic.showIcon(IconNames.Happy)
 // activate RGB LED
 input.onButtonPressed(Button.A, function() {
     basic.clearScreen()
-    basic.showIcon(IconNames.Fabulous)
+    basic.showIcon(IconNames.Giraffe)
     pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
